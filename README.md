@@ -4,7 +4,7 @@ This project takes an exported logbook file from ForeFlight and adds flight dist
 It is tuned to my own needs and does a bunch of cleanup of typos and changed airport IDs (see "trans_dict" variable; you can edit this for your own needs,
 or simply make it an empty dictionary)
 
-It also takes multi-segment flights (KJFK-KLAX-KJFK) that were entered as a single entry and parses them into individual segments,
+It also takes multi-segment flights (e.g. "KJFK - KLAX - KJFK") that were entered as a single entry and parses them into individual segments,
 reallocating all flight time variables (PIC, X-country, IMC, dual given, dual received, night) proportionally based on the flight segment distance
 as a percentage of total flight distance - This may not be appropriate, but then again, it's more accurate than leaving it lumped together - for me, anyway.
 
