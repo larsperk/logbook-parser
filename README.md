@@ -12,7 +12,7 @@ as a percentage of total flight distance - This may not be appropriate, but then
 
 You'll need to edit the input filename to reflect the name of the ForeFlight export.
 
-Use carefully and at your own risk - before importing back into ForeFlight carefully chack the logbook-output.csv for accuracy. You can alos just use Excel / Google Sheets
+Use carefully and at your own risk - before importing back into ForeFlight carefully check the logbook-output.csv for accuracy. You can also just use Excel / Google Sheets
 to sum the distance column if all you're interested in is how many miles you've flown.
 
 Of course, all distances are great circle orgin -> destination so Dick Rutan / Jenna Yeager's round-the-world non-stop counts as zero miles. Your own zigs and zags won't get counted.
